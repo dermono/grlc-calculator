@@ -1,6 +1,5 @@
-# grlc-calculator
-A very simple Garlicoin mining profitability calculator.
-
+# tuxcoin-calculator
+This is a tuxcoin mining profitability calculator made by myself and yesiam77. It was originally made by Phoeliok and it has since been forked. 
 ## Available Scripts
 
 ### `npm start`
