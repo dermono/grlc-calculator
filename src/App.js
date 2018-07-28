@@ -34,7 +34,7 @@ class App extends Component {
   componentWillMount() {
     const self = this;
 
-    axios.get('https://garli.co.in/api/getnetworkhashps')
+    axios.get('explore.tuxtoke.life:3001/api/getnetworkhashps')
     .then(function (response) {
       self.setState({
         nethashrate: (response.data / (1000 * 1000 * 1000)).toFixed(4)
@@ -44,7 +44,7 @@ class App extends Component {
       console.log("Error, cannot fetch API");
     });  
 
-    axios.get('https://api.coinmarketcap.com/v1/ticker/garlicoin/')
+    axios.get('https://api.coinmarketcap.com/v1/ticker/tuxcoin/')
     .then(function (response) {
       self.setState({
         price: response.data[0].price_usd
@@ -147,7 +147,7 @@ class App extends Component {
         </Jumbotron>
 
         <Jumbotron style={{padding: '2rem'}}>
-          <h2>GRLC information</h2>
+          <h2>TUX information</h2>
           <Form style={{paddingTop: '1rem'}}>
             <Row>
               <Col>
@@ -163,7 +163,7 @@ class App extends Component {
               </Col>
               <Col>
                 <FormGroup>
-                  <Label for="cost">GRLC price</Label>
+                  <Label for="cost">TUX price</Label>
                   <InputGroup>
                     <Input name="cost" id="cost" value={this.state.price} onChange={this.priceChange} />
                     <InputGroupAddon className='input-group-append'>
