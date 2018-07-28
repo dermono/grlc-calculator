@@ -15,7 +15,7 @@ class App extends Component {
       cost: 0.12,
       pool: 1,
       price: 2,
-      coinblock: 50,
+      coinblock: 69,
       coef: 0.9
     }
 
