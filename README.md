@@ -1,5 +1,5 @@
 # tuxcoin-calculator
-This is a tuxcoin mining profitability calculator made by myself and yesiam77. It was originally made by Phoeliok and it has since been forked. 
+This used to be a garlicoin profitability calculator (made by Phoeliok), but it was forked and edited by myself and yesiam77 to accomodate tuxcoin. This fork is a very simple tuxcoin profitability calculator.
 ## Available Scripts
 
 ### `npm start`
